@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="text.css">
+    <button onclick="changeColor()" id='text'>Hello World!</button>
+
+<script>
+    function changeColor(){ 
+        let random = '#';
+        random += Math.random().toString(16).slice(2,8);
+        document.getElementById('text').style.color=random;
+    }
+
+</script>
+
+</html>
+
+<!-- -->
